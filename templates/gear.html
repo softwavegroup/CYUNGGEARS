@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outdoor Gear</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #eef1f5;
+            color: #333;
+        }
+
+        nav {
+            background-color: #2b2b2b;
+            color: #fff;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 15px;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        header {
+            text-align: center;
+            padding: 50px 20px;
+            background: linear-gradient(to bottom, #ffb25488, #ffb84e);
+            color: white;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        section.gear-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .gear-item {
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            text-align: center;
+            width: 300px;
+        }
+
+        .gear-item img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+
+        .gear-item h3 {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div>Outdoor Adventure</div>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/gear">Gear</a></li>
+            <li><a href="/hiking">Hiking</a></li>
+            <li><a href="/coffee">Coffee</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Gear Up for Adventure</h1>
+        <p>Explore our selection of high-quality camping and hiking gear.</p>
+    </header>
+    <section class="gear-list">
+        <div class="gear-item">
+            <img src="/static/images/Untitled (24).png" alt="Tent">
+            <h3>Durable Tent</h3>
+            <p>Stay comfortable and protected in the great outdoors.</p>
+        </div>
+        <div class="gear-item">
+            <img src="/static/images/Untitled (23).png" alt="Backpack">
+            <h3>Sturdy Backpack</h3>
+            <p>Carry all your essentials with ease and style.</p>
+        </div>
+        <div class="gear-item">
+            <img src="/static/images/Untitled (25).png" alt="Sleeping Bag">
+            <h3>Cozy Sleeping Bag</h3>
+            <p>Sleep soundly no matter the conditions.</p>
+        </div>
+        <div class="gear-item">
+            <img src="/static/images/Untitled (26).png" alt="Lantern">
+            <h3>Bright Lantern</h3>
+            <p>Light up your campsite with long-lasting illumination.</p>
+        </div>
+    </section>
+</body>
+</html>
