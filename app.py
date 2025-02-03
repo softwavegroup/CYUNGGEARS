@@ -11,13 +11,13 @@ def home():
 def gear():
     return render_template('gear.html')
 
+@app.route('/Coffee')
+def Coffee():
+    return render_template('Coffee.html')
+
 @app.route('/hiking')
 def hiking():
     return render_template('hiking.html')
-
-@app.route('/coffee')
-def coffee():
-    return render_template('coffee.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
